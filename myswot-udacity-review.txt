@@ -1,0 +1,20 @@
+Sir
+First of all let me congratulate you and the Udacity Team for the effort you have put for developing Android Developers  who are going to lead the world of IT.
+ 
+Gone through the review report  in detail and extend thanks for your valuable feedback. Out of 17 review points our APP has been rated  14 green and 3 red
+
+This refers to the following findings of the review which were reported Does Not Meet Specifications
+
+1) App does not use a Loader to move its data to its views.
+We use data base handling  in the Analysis Activity were the Strengths, Weakness,Opportunities and threats can be entered in the the sqlite data  table(DatabaseHelper.java) 
+In the analysis activity when we click the save button, the data entered is saved and shown in the below side. We have used ArrayAdapter<String> adapter;   loadSpinner() for this in ESSSpinnerActivity.java..
+
+2)App does not implement a ContentProvider to access locally stored data.
+
+In the Analysis actvity, when we click the save button, the data saved is shown below the save button. On clicking the shown data all the data saved will be displayed. This has been done by using  ArrayAdapter<String> adapter;   loadSpinner() for this in ESSSpinnerActivity.java..
+
+This is Business Management App and this will be provided only those who need it and it requires relevant training for its usage. Hence made not user friendly
+
+3)App does not include a tablet layout which takes advantage of the additional screen space.
+We have addressed this issue by providing two fragments in "How to use SWOT" Actvity named as ArticlesFragment anf HeadlinesFragment.
+ 
